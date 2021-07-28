@@ -11,5 +11,7 @@ Calculation of Mi(k) in the axial-moment interaction was revised (there was a pr
 
 Axial force values for the calculation of the axial-moment interaction curve were changed (depending on the section details, for compression axial load ratios greater than 70% the algorithm was not converging)
 
+Correction of concrete layers areas because of the presence of reinforcing bars in the layer was revised.
+
 The estimation of first yield curvature now includes the compression strain in the concrete (1.8*fpc/Ec), before it only checked for tensile strain in the rebar (fy/Es)
 “breaks” outside a loop were replaced with “returns” 
